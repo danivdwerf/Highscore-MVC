@@ -1,0 +1,69 @@
+html, body
+{
+  margin: 0;
+  padding: 0;
+}
+
+html
+{
+  background-color: #333333;
+}
+
+highscore-board
+{
+  width: 500px;
+  height: 200px;
+  display: block;
+  box-sizing: border-box;
+  background-color: gray;
+  margin: 0 auto;
+}
+
+highscore-board #highscore-content
+{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+highscore-board #highscore-content #highscore-head
+{
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  background-color: lightblue;
+}
+
+highscore-board #highscore-content #highscore-head #highscore-headertext
+{
+  color: black;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+}
+
+highscore-board #highscore-content #highscore-score-container
+{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  background-color: #222222;
+}
+
+highscore-board #highscore-content #highscore-score-container .highscore-score-item
+{
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+highscore-board #highscore-content #highscore-score-container .highscore-score-item .highscore-score-text
+{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  line-height: 30px;
+}
